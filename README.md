@@ -19,8 +19,8 @@ robots.txt, sitemap.xml, site.webmanifest
 
 The site is plain HTML/CSS/JS, so no build step is needed. Upload the folder to any static host:
 
-- **GitHub Pages:** Settings → Pages → Deploy from branch → `main` / root. The `CNAME` file sets the custom domain to `westconsultingllc.net`. At your domain registrar, add A records for `@` pointing to 185.199.108.153, 185.199.109.153, 185.199.110.153 and 185.199.111.153, and a CNAME record for `www` pointing to `rickw63.github.io`. Once the domain verifies, tick **Enforce HTTPS**.
-- **Netlify / Cloudflare Pages / Vercel:** connect the repo, leave the build command empty and set the publish directory to `/`.
+- **Vercel (current host):** import this repo with Framework Preset "Other", no build command and the root as the output directory. Pushes to the production branch deploy automatically, and pull requests get preview links. Attach `westconsultingllc.net` under Settings → Domains and add the DNS records that screen lists.
+- **Other static hosts** (Netlify, Cloudflare Pages, GitHub Pages) also work with no build step.
 
 ## Content guardrails
 
