@@ -9,8 +9,8 @@ index.html          Single-page site (services, approach, industries, about, del
 404.html            Not-found page
 css/styles.css      All styles (navy/white brand, responsive, reduced-motion aware)
 js/main.js          Mobile menu, scroll reveal, active nav, contact form
-assets/logo.svg     Primary logo (navy) / logo-white.svg for dark backgrounds
-assets/favicon.svg  Shield mark; PNG icons and og-image.png for social sharing
+assets/logo.png     Primary logo (transparent) / logo-white.png for dark backgrounds
+PNG icons (mountain mark) and og-image.png for social sharing
 assets/img/         Custom SVG illustrations
 robots.txt, sitemap.xml, site.webmanifest
 ```
@@ -24,7 +24,7 @@ The site is plain HTML/CSS/JS, so no build step is needed. Upload the folder to 
 
 ## Before going live
 
-- **Email:** the site uses `info@westconsultingllc.net` (in `index.html`, 3 places). Change it if you use a different inbox.
+- **Email:** inquiries go to `rick@westconsultingllc.net` (set in `index.html`).
 - **Domain:** canonical, Open Graph, sitemap and robots URLs assume `https://westconsultingllc.net/`.
 - **Contact form:** opens the visitor's email app with the message filled in, so no backend is required. To collect submissions without email apps, point the form `action` at a service such as Formspree and remove the submit handler in `js/main.js`.
 - **Photos:** the graphics are custom SVG illustrations. To use real jobsite photos, drop them in `assets/img/` and swap the `src` of the hero or approach image.

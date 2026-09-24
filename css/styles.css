@@ -18,7 +18,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+html { scroll-behavior: smooth; scroll-padding-top: 92px; }
 
 body {
   margin: 0;
@@ -95,8 +95,8 @@ a:hover { color: var(--navy-700); }
   transition: border-color .2s, box-shadow .2s;
 }
 .site-header.scrolled { border-bottom-color: var(--line); box-shadow: 0 6px 20px -16px rgba(18, 40, 76, .5); }
-.header-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
-.brand img { width: 240px; height: auto; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 84px; }
+.brand img { height: 64px; width: auto; }
 
 .site-nav { display: flex; align-items: center; gap: 30px; }
 .site-nav a:not(.btn) {
@@ -211,8 +211,7 @@ a:hover { color: var(--navy-700); }
   aspect-ratio: 1; border-radius: 28px; display: grid; place-items: center;
   background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .14);
 }
-.about-mark img { width: 55%; filter: drop-shadow(0 12px 24px rgba(0, 0, 0, .35)); outline: 0; }
-.about-mark img { background: transparent; }
+.about-mark img { width: 82%; }
 blockquote {
   margin: 32px 0 0; padding: 24px 28px; border-left: 4px solid #fff;
   background: rgba(255, 255, 255, .06); border-radius: 0 var(--radius) var(--radius) 0;
@@ -258,6 +257,7 @@ blockquote footer { font-size: .92rem; opacity: .8; }
 
 /* Footer */
 .site-footer { background: var(--navy-900); color: #C3CDDB; padding: 48px 0; }
+.site-footer .footer-inner > img { height: 72px; width: auto; }
 .footer-inner { display: grid; grid-template-columns: auto 1fr auto; gap: 32px; align-items: center; }
 .site-footer nav { display: flex; gap: 26px; justify-content: center; flex-wrap: wrap; }
 .site-footer a { color: #E6ECF4; text-decoration: none; font-weight: 500; }
@@ -281,7 +281,7 @@ blockquote footer { font-size: .92rem; opacity: .8; }
 @media (max-width: 880px) {
   .nav-toggle { display: flex; }
   .site-nav {
-    position: absolute; top: 76px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0;
+    position: absolute; top: 84px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0;
     background: #fff; border-bottom: 1px solid var(--line); padding: 8px 24px 20px;
     box-shadow: 0 20px 30px -20px rgba(18, 40, 76, .4);
     display: none;
@@ -302,7 +302,7 @@ blockquote footer { font-size: .92rem; opacity: .8; }
 @media (max-width: 600px) {
   body { font-size: 16px; }
   .container { padding: 0 16px; }
-  .brand img { width: 200px; }
+  .brand img { height: 56px; }
   .site-nav { padding: 8px 16px 20px; }
   .cards, .deliverables, .industry-grid, .field-row { grid-template-columns: 1fr; }
   .strip-grid { grid-template-columns: 1fr; }
