@@ -5,7 +5,7 @@ Static, dependency-free marketing site for West Consulting LLC, a construction s
 ## Structure
 
 ```
-index.html          Single-page site (services, approach, industries, about, deliverables, contact)
+index.html          Single-page site (services, when to call, why us, who we work with, about, FAQ, contact)
 404.html            Not-found page
 css/styles.css      All styles (navy/white brand, responsive, reduced-motion aware)
 js/main.js          Mobile menu, scroll reveal, active nav, contact form
@@ -21,6 +21,16 @@ The site is plain HTML/CSS/JS, so no build step is needed. Upload the folder to 
 
 - **GitHub Pages:** Settings → Pages → Deploy from branch → `main` / root. Add a `CNAME` file containing `westconsultingllc.net` to use the custom domain.
 - **Netlify / Cloudflare Pages / Vercel:** connect the repo, leave the build command empty and set the publish directory to `/`.
+
+## Content guardrails
+
+Site copy follows the West Consulting BD Playbook (internal, not in this repo):
+
+- Firm-level voice ("we", "West Consulting"). No personal bio or credentials.
+- No client names. The representative engagement is described by shape and scale only.
+- No pricing, no guaranteed mod, premium or citation outcomes, no legal advice.
+- State plainly that the firm places no coverage and takes no commission.
+- Location is Gardnerville, NV. Service area is California and Nevada.
 
 ## Before going live
 

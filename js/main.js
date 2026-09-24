@@ -86,6 +86,7 @@
         'Email: ' + data.get('email'),
         'Phone: ' + (data.get('phone') || '-'),
         'Topic: ' + data.get('topic'),
+        'Renewal date: ' + (data.get('renewal') || '-'),
         '',
         data.get('message')
       ].join('\n');
