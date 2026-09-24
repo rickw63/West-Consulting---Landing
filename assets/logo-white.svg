@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 72" role="img" aria-labelledby="t">
+  <title id="t">West Consulting LLC</title>
+  <!-- Shield mark -->
+  <g transform="translate(4 4)">
+    <path d="M32 0 L62 10 V32 C62 49 49 60 32 64 C15 60 2 49 2 32 V10 Z" fill="#FFFFFF"/>
+    <path d="M32 6 L56 14 V32 C56 45.5 46 54.5 32 58 C18 54.5 8 45.5 8 32 V14 Z" fill="none" stroke="#12284C" stroke-opacity=".25" stroke-width="1.5"/>
+    <!-- W built from I-beam strokes -->
+    <path d="M15 20 L23 46 L32 28 L41 46 L49 20" fill="none" stroke="#12284C" stroke-width="5" stroke-linejoin="miter" stroke-linecap="square"/>
+    <rect x="12" y="17" width="10" height="3" fill="#12284C"/>
+    <rect x="42" y="17" width="10" height="3" fill="#12284C"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="80" y="36" xml:space="preserve" font-family="'Archivo', 'Helvetica Neue', Arial, sans-serif" font-size="27" letter-spacing="1.5" fill="#FFFFFF"><tspan font-weight="800">WEST</tspan> <tspan font-weight="400">CONSULTING</tspan></text>
+  <rect x="80" y="45" width="290" height="1.5" fill="#FFFFFF" fill-opacity=".35"/>
+  <text x="80" y="62" font-family="'Archivo', 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" letter-spacing="3.2" fill="#FFFFFF" fill-opacity=".8">SAFETY · CLAIMS · RISK — LLC</text>
+</svg>

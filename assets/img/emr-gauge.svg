@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-labelledby="gt">
+  <title id="gt">Illustration of an experience modification rate gauge moving below 1.0 beside a loss run report</title>
+  <defs>
+    <filter id="s2" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#12284C" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="540" height="420" rx="28" fill="#E9EEF5"/>
+  <!-- grid texture -->
+  <g stroke="#12284C" stroke-opacity=".06">
+    <path d="M10 70 H550 M10 130 H550 M10 190 H550 M10 250 H550 M10 310 H550 M10 370 H550"/>
+    <path d="M70 10 V430 M130 10 V430 M190 10 V430 M250 10 V430 M310 10 V430 M370 10 V430 M430 10 V430 M490 10 V430"/>
+  </g>
+
+  <!-- loss run document -->
+  <g filter="url(#s2)" transform="translate(300 70) rotate(4)">
+    <rect width="200" height="260" rx="12" fill="#FFFFFF"/>
+    <rect width="200" height="44" rx="12" fill="#12284C"/>
+    <rect y="30" width="200" height="14" fill="#12284C"/>
+    <text x="18" y="28" font-family="Archivo, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">LOSS RUN</text>
+    <g fill="#12284C">
+      <rect x="18" y="64" width="70" height="7" rx="3" opacity=".7"/><rect x="130" y="64" width="52" height="7" rx="3" opacity=".7"/>
+      <rect x="18" y="88" width="90" height="6" rx="3" opacity=".25"/><rect x="142" y="88" width="40" height="6" rx="3" opacity=".25"/>
+      <rect x="18" y="108" width="76" height="6" rx="3" opacity=".25"/><rect x="148" y="108" width="34" height="6" rx="3" opacity=".25"/>
+      <rect x="18" y="128" width="98" height="6" rx="3" opacity=".25"/><rect x="138" y="128" width="44" height="6" rx="3" opacity=".25"/>
+      <rect x="18" y="148" width="64" height="6" rx="3" opacity=".25"/><rect x="152" y="148" width="30" height="6" rx="3" opacity=".25"/>
+      <rect x="18" y="168" width="84" height="6" rx="3" opacity=".25"/><rect x="144" y="168" width="38" height="6" rx="3" opacity=".25"/>
+      <rect x="18" y="192" width="164" height="1.5" opacity=".3"/>
+      <rect x="18" y="208" width="54" height="8" rx="3" opacity=".8"/><rect x="128" y="208" width="54" height="8" rx="3" opacity=".8"/>
+    </g>
+    <!-- pen mark -->
+    <ellipse cx="160" cy="130" rx="32" ry="13" fill="none" stroke="#12284C" stroke-width="2"/>
+  </g>
+
+  <!-- gauge card -->
+  <g filter="url(#s2)" transform="translate(40 110)">
+    <rect width="290" height="250" rx="18" fill="#FFFFFF"/>
+    <text x="24" y="38" font-family="Archivo, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6" fill="#12284C">EXPERIENCE MOD</text>
+    <g transform="translate(145 175)">
+      <!-- arc segments -->
+      <path d="M-105 0 A105 105 0 0 1 -74.2 -74.2" fill="none" stroke="#12284C" stroke-opacity=".95" stroke-width="20"/>
+      <path d="M-72 -76.4 A105 105 0 0 1 0 -105" fill="none" stroke="#12284C" stroke-opacity=".6" stroke-width="20"/>
+      <path d="M3 -105 A105 105 0 0 1 74.2 -74.2" fill="none" stroke="#12284C" stroke-opacity=".3" stroke-width="20"/>
+      <path d="M76.4 -72 A105 105 0 0 1 105 0" fill="none" stroke="#12284C" stroke-opacity=".14" stroke-width="20"/>
+      <!-- ticks -->
+      <g font-family="Inter, Arial, sans-serif" font-size="11" fill="#5B6676" text-anchor="middle">
+        <text x="-106" y="22">0.70</text>
+        <text x="0" y="-122">1.00</text>
+        <text x="106" y="22">1.30</text>
+      </g>
+      <!-- ghost needle (previous) -->
+      <line x1="0" y1="0" x2="58" y2="-68" stroke="#12284C" stroke-opacity=".2" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 7"/>
+      <!-- needle -->
+      <line x1="0" y1="0" x2="-60" y2="-66" stroke="#12284C" stroke-width="5" stroke-linecap="round"/>
+      <circle r="11" fill="#12284C"/>
+      <circle r="4" fill="#FFFFFF"/>
+      <!-- motion arrow -->
+      <path d="M40 -104 A112 112 0 0 0 -40 -104" fill="none" stroke="#12284C" stroke-width="1.6" stroke-opacity=".6"/>
+      <path d="M-34 -110 L-42 -103 L-32 -98" fill="none" stroke="#12284C" stroke-width="1.6" stroke-opacity=".6"/>
+    </g>
+    <text x="145" y="226" font-family="Archivo, Arial, sans-serif" font-size="13" font-weight="600" fill="#12284C" text-anchor="middle">Below 1.0 = premium credit</text>
+  </g>
+</svg>
