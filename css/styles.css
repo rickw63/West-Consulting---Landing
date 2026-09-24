@@ -206,6 +206,13 @@ a:hover { color: var(--navy-700); }
   color: #E6ECF4;
 }
 .section-dark h2, .section-dark .eyebrow { color: #fff; }
+.about { padding-top: 0; }
+.photo-band { position: relative; margin: 0 0 56px; height: clamp(260px, 36vw, 540px); overflow: hidden; }
+.photo-band img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; }
+.photo-band::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, rgba(18, 40, 76, 0) 45%, rgba(18, 40, 76, .6) 78%, var(--navy) 100%);
+}
 .about-grid { display: grid; grid-template-columns: 300px 1fr; gap: 64px; align-items: center; }
 .about-mark {
   aspect-ratio: 1; border-radius: 28px; display: grid; place-items: center;
@@ -296,6 +303,8 @@ blockquote footer { font-size: .92rem; opacity: .8; }
   .hero-art { max-width: 560px; margin: 0 auto; }
   .about-mark { max-width: 220px; }
   .section { padding: 76px 0; }
+  .about { padding-top: 0; }
+  .photo-band { margin-bottom: 40px; }
   .footer-inner { grid-template-columns: 1fr; text-align: center; justify-items: center; }
 }
 

@@ -11,7 +11,7 @@ css/styles.css      All styles (navy/white brand, responsive, reduced-motion awa
 js/main.js          Mobile menu, scroll reveal, active nav, contact form
 assets/logo.png     Primary logo (transparent) / logo-white.png for dark backgrounds
 PNG icons (mountain mark) and og-image.png for social sharing
-assets/img/         Custom SVG illustrations
+assets/img/         Custom SVG illustrations and the Sierra photo (1200w/2400w)
 robots.txt, sitemap.xml, site.webmanifest
 ```
 
@@ -27,4 +27,4 @@ The site is plain HTML/CSS/JS, so no build step is needed. Upload the folder to 
 - **Email:** inquiries go to `rick@westconsultingllc.net` (set in `index.html`).
 - **Domain:** canonical, Open Graph, sitemap and robots URLs assume `https://westconsultingllc.net/`.
 - **Contact form:** opens the visitor's email app with the message filled in, so no backend is required. To collect submissions without email apps, point the form `action` at a service such as Formspree and remove the submit handler in `js/main.js`.
-- **Photos:** the graphics are custom SVG illustrations. To use real jobsite photos, drop them in `assets/img/` and swap the `src` of the hero or approach image.
+- **Photos:** the About section opens with a full-width mountain photo (`assets/img/sierra-*.jpg`). The other graphics are custom SVG illustrations; to use jobsite photos, drop them in `assets/img/` and swap the `src` of the hero or approach image.
